@@ -1,4 +1,15 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    
+    
+  }
+.main-body{
+    background-color: rgba(241, 241, 243, 1);
+}
+
+
 /* header */
+
 .title{
     display: flex;
     justify-content: space-between;
@@ -27,9 +38,10 @@
 }
 /* banner */
 .banner-title{
-    width: 622px;
-    height: 246px;
-    padding: 117px 0px 117px 59px ;
+   
+    padding-top: 117px;
+    padding-bottom: 117px;
+    padding-left: 59px;
 }
 .banner-subtitle{
     font-weight: 400;
@@ -42,6 +54,7 @@
     color: #0E0E0E;
     margin-top: 24px;
     margin-bottom: 24px;
+    padding: ;
 
 }
 .banner-button{
@@ -56,14 +69,16 @@
     
     
 }
+.banner-button:hover{
+    background-color: #f10909;
+}
 .banner-img{
     width: 474px;
     height: 400px;
     padding: 80px 59px 80px 0px;
 }
 .banner{
-    max-width: 1280px;
-    height: 560px;
+   
     display: flex;
     margin:0 auto ;
     background-color:#C6E4D6 ;
@@ -72,4 +87,93 @@
     border-radius: 24px;
     margin-left: 160px;
     margin-right: 160px;
+    align-items: center;
+}
+/* vision */
+.vision-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.vision-description{
+    color:rgba(14, 14, 14, 0.7) ;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.vision{
+    margin-left: 160px;
+    margin-right: 160px;
+    
+}
+/* cards */
+.digital-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.digital-description{
+    font-size: 16px;
+    font-weight:400;
+}
+.card-image{
+    width: 64px;
+    height: 64px;
+}
+.digital-button{
+    background-color: #5490F5;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 122px; 
+    height: 41px;
+    border-radius: 11px;
+    border: none;
+}
+.digital-button:hover{
+    background-color: #f10909;
+}
+.card-one{
+    background-color:rgba(84, 144, 245, 0.2) ;
+    width: 410px;
+   
+    padding: 32px;
+    border-radius: 16px;
+}
+.card-two .digital-button-two{
+    background-color: rgba(9, 161, 92, 1);
+    border: none;
+}
+.digital-button-two:hover{
+    background-color: #f10909;
+}
+.digital-button-three{
+    background-color: rgba(255, 194, 57, 1);
+    border: none;
+}
+.digital-button-three:hover{
+    background-color: #f10909;
+}
+.card-two{
+    background-color:rgba(198, 228, 214, 1) ;
+    width: 410px;
+   
+    padding: 32px;
+    border-radius: 16px;
+
+
+}
+.card-three{
+    background-color: rgba(247, 235, 207, 1);
+    width: 410px;
+   
+    padding: 32px;
+    border-radius: 16px;
+}
+.cards{
+    margin-left: 160px;
+    margin-right: 160px;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+    
 }
