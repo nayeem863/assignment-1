@@ -13,10 +13,11 @@
 .title{
     display: flex;
     justify-content: space-between;
-    margin-left: 160px;
-    margin-right: 160px;
+    
     align-items: center;
     margin-bottom: 20px;
+    max-width: 80%;
+    margin: 0 auto;
 }
 .main-title{
     font-size: 32px;
@@ -85,9 +86,10 @@
     margin-bottom: 80px;
     gap: 64px;
     border-radius: 24px;
-    margin-left: 160px;
-    margin-right: 160px;
+   
     align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
 }
 /* vision */
 .vision-title{
@@ -102,8 +104,8 @@
     margin-bottom: 32px;
 }
 .vision{
-    margin-left: 160px;
-    margin-right: 160px;
+    max-width: 80%;
+    margin: 0 auto;
     
 }
 /* cards */
@@ -170,11 +172,12 @@
     border-radius: 16px;
 }
 .cards{
-    margin-left: 160px;
-    margin-right: 160px;
+   
     display: flex;
     gap: 24px;
     margin-bottom: 32px;
+    max-width: 80%;
+    margin: 0 auto;
     
 }
 /* recent news */
@@ -237,8 +240,8 @@
     
 }
 .news{
-    margin-left: 160px;
-    margin-right: 160px; 
+    max-width: 80%;
+    margin: 0 auto;
     
 }
 .recent-image img{
@@ -286,8 +289,8 @@
 }
 .donation-title{
     text-align: center;
-    margin-left: 160px;
-    margin-right: 160px;
+   max-width: 80%;
+   margin: 0 auto;
 }
 input[type="text"]{
     width: 1032px;
@@ -388,7 +391,7 @@ input[type="email"]{
     background-color: #C6E4D6;
     border-radius: 24px;
     margin:0px auto;
-    width: 744px;
+    width: 744px; 
 }
 .dr{
     color:rgba(14, 14, 14, 0.8) ;
@@ -404,7 +407,9 @@ input[type="email"]{
     background-position: top left;
     border-radius: 16px;
     padding: 48px 24px 48px 24px;
-    margin-left: 160px;
-    margin-right: 160px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 24px;
+    width: 1155px;
 
 }
