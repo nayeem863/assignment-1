@@ -390,3 +390,21 @@ input[type="email"]{
     margin:0px auto;
     width: 744px;
 }
+.dr{
+    color:rgba(14, 14, 14, 0.8) ;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.yunus-container{
+    background-color: #FFFFFF;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    border-radius: 16px;
+    padding: 48px 24px 48px 24px;
+    margin-left: 160px;
+    margin-right: 160px;
+
+}
