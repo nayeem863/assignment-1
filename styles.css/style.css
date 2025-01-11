@@ -54,7 +54,7 @@
     color: #0E0E0E;
     margin-top: 24px;
     margin-bottom: 24px;
-    padding: ;
+    
 
 }
 .banner-button{
@@ -351,7 +351,7 @@ input[type="email"]{
     
 }
 .email::placeholder{
-    padding: 18px 0px 18px 40px;  */
+    padding: 18px 0px 18px 40px;  
     color:rgba(14, 14, 14, 0.3) ;
     font-size: 18px;
     font-weight: normal;
