@@ -177,3 +177,80 @@
     margin-bottom: 32px;
     
 }
+/* recent news */
+.recent-image{
+    width: 408px;
+    height: 306px;
+   
+    padding: 48px 0px 48px 48px;
+    
+    
+}
+.satelite-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+.aljazeera{
+    width: 134px;
+    
+    margin-bottom: 12px;
+}
+.time,.date{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(14, 14, 14, 0.7);
+}
+.date-time{
+    display: flex;
+    gap: 12px;
+}
+.read-more{
+    background-color: #006A50;
+    width: 139px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+    margin-top: px;
+}
+.read-more:hover{
+    background-color: #f10909;
+}
+.launch-satelite{
+    display: flex;
+    gap: 32px;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    margin-bottom: 24px;
+    
+}
+.satelite{
+    width: 744px;
+    
+   padding: 56px 48px 56px 0px;
+    
+}
+.news{
+    margin-left: 160px;
+    margin-right: 160px; 
+    
+}
+.recent-image img{
+    border-radius: 24px;
+
+}
+.satelite-description{
+    margin-bottom: 10px;
+}
+.flip-image{
+    padding: 48px 48px 48px 0px;
+}
+.flip-satelite{
+    padding: 56px 0px 56px 48px;
+}
