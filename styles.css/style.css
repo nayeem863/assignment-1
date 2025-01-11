@@ -254,3 +254,139 @@
 .flip-satelite{
     padding: 56px 0px 56px 48px;
 }
+/* donation */
+.button-100{
+    background-color:#FFFFFF;
+    width: 240px;
+    height: 128px;
+    font-size: 40px;
+    font-weight:bold ;
+    color:rgba(14, 14, 14, 0.8);
+    border: none;
+    border-radius: 16px;
+    
+}
+.button-100:hover{
+    background-color: #f10909;
+
+}
+.button-200{
+    
+    background-color:rgba(198, 228, 214, 1) ;
+
+}
+.donation-button{
+    display: flex;
+    gap: 24px;
+    margin: 32px 0px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.donation-title{
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+input[type="text"]{
+    width: 1032px;
+    height: 64px;
+    border: none;
+    background-color: #FFFFFF;
+    
+    
+    
+    
+}
+input::placeholder{
+    color:rgba(14, 14, 14, 0.3) ;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    
+
+}
+.done{
+    background-color: #006A50;
+    width: 151px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+    
+}
+.done:hover{
+    background-color: #f10909;
+
+}
+.done-container{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.newsletter{
+    
+    align-items: center;
+    text-align: center;
+    
+    margin-bottom: 24px;
+  
+}
+/* subscribe */
+input[type="email"]{
+    width: 600px;
+    height: 55px;
+    background-color: #FFFFFF;
+    border: none;
+   
+    
+}
+.email::placeholder{
+    padding: 18px 0px 18px 40px;  */
+    color:rgba(14, 14, 14, 0.3) ;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+   
+    
+}
+.subscribe-btn{
+    background-color: #006A50;
+    width: 150px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    
+}
+.subscribe-btn:hover{
+    background-color: #f10909;
+}
+.subscribe-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+} 
+.spam{
+    text-align: center;
+}
+.subscribe{
+
+  
+    padding: 80px 200px 80px 200px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin:0px auto;
+    width: 744px;
+}
